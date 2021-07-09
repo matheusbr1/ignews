@@ -29,7 +29,7 @@ describe('Home', () => {
     } as any)
 
     const response = await getStaticProps({})
-
+        
     expect(response).toEqual(
       expect.objectContaining({
         props: {
